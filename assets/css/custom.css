@@ -1,0 +1,42 @@
+/*
+.btn-primary{
+    background-color: #1d2a5c !important;
+}
+
+.btn-primary:hover{
+    background-color: #121933 !important;
+}
+.form-check-input:checked {
+    background-color: #1d2a5c !important;
+}
+li.active>span.page-link{
+    background-color: #1d2a5c !important;
+}
+*/
+
+.modal-header div[aria-label="Close"]{
+    padding:calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+    margin:calc(-.5 * var(--bs-modal-header-padding-y)) calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y)) auto}
+
+.del{
+        text-decoration: line-through;
+      }
+
+.scrollable-div {
+        overflow-y: auto;
+        max-height: 100vh;
+        width: 100%;
+    }
+
+
+        .spinner-border {
+            display: none; /* Hide by default */
+
+            z-index: 9999;
+        }
+        .spinner-border.show {
+            display: block; /* Show when active */
+        }
+
+
+
